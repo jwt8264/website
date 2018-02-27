@@ -23,7 +23,8 @@ a{
     font-size: 54;
     letter-spacing: 5;
 }
-.centered{
+.main-div{
     margin: 0 auto;
-    width: 400px;
+    margin-top: 80px;
+    width: 800px;
 }
