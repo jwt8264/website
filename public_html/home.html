@@ -6,6 +6,7 @@
         <meta name="robots" content="Personal website for Jason Tu">
         <link href="https://fonts.googleapis.com/css?family=Oxygen:300" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="icon" href="favicon.ico">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="js/main.js"></script>
@@ -19,29 +20,46 @@
             <p>
                 Computer science graduate of Rochester Institute of Technology.
             </p>
-            <p>
-                <a href="files/JasonTuResume.pdf" target="_blank">Resume ➛</a>
-                <br>
-                <a href="https://www.linkedin.com/in/jwt8264/" target="_blank">LinkedIn ➛</a>
-                <br>
-                <a href="https://github.com/jwt8264" target="_blank">Github ➛</a>
-                <br>
-                <div hidden>
+            <br>
+            <div>
+                <!-- icons from https://www.iconsdb.com -->
+                <div class="link-container">
+                <a href="files/JasonTuResume.pdf" target="_blank">
+                    <img class="my-icons" src="img/resume.png">
+                    Resume ➛
+                </a>
+                </div>
+                <div class="link-container">
+                <a href="https://www.linkedin.com/in/jwt8264/" target="_blank">
+                    <img class="my-icons" src="img/linkedin.png">
+                    LinkedIn ➛
+                </a>
+                </div>
+                <div class="link-container">
+                <a href="https://github.com/jwt8264" target="_blank">
+                    <img class="my-icons" src="img/github.png">
+                    Github ➛
+                </a>
+                </div>
+                <div hidden class="link-container">
                     <a href="experiments.html" >Web Experiments ➛</a>
                     <br>
                 </div>
 
                 <br>
+                <div class="link-container">
                 <!-- display email with js to defeat web crawlers -->
                 <noscript>
                     Email: Please enable JavaScript to display email
                 </noscript>
+                <img class="my-icons" src="img/mail.png">
                 <script type="text/javascript">
                     var user = 'jwt8264',
                         domain = 'gmail.com';
-                    document.write('Email: '+user + '@' + domain);
+                    document.write(user + '@' + domain);
                 </script>
-            </p>
+                </div>
+            </div>
         </div>
     </body>
 
