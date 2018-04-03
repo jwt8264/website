@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/*Variables*/
 :root{
     --bg-color: #1E1E1E;
     --text-color: #E5E5E5;
@@ -8,7 +9,7 @@
 /* CSS Document */
 html{
     font-family: 'Oxygen', sans-serif;
-    font-size: 22;
+    font-size: 20px;
 	color: var(--text-color);
 }
 body{
@@ -17,7 +18,7 @@ body{
 	background: var(--bg-color);
 }
 p{
-    letter-spacing: 1;
+    letter-spacing: 0.5px;
     margin: auto;
     margin-top: 20px;
 }
@@ -26,8 +27,12 @@ a{
     text-decoration: none;
 }
 h1{
-    font-size: 50;
-    letter-spacing: 5;
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+h2{
+    font-size: 32px;
+    letter-spacing: 1px;
 }
 .main-div{
     margin: 0 auto;
